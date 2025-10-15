@@ -1,0 +1,14 @@
+[project]
+name = "pdm-unearth18-gitref"
+version = "0.1.0"
+description = ""
+requires-python = "==3.13.*"
+
+
+dependencies = [
+  "doc8 @ git+https://github.com/PyCQA/doc8.git@v1.1.2"
+]
+
+
+[tool.pdm]
+distribution = false
